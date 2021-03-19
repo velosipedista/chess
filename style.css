@@ -1,0 +1,54 @@
+#first {
+    background: rgba(255, 255, 0, 0.37);
+    font-size: large;
+}
+
+#second {
+    background: rgba(255, 72, 0, 0.52);
+}
+
+.mega {
+    background: rgba(64, 224, 208, 0.479);
+}
+
+h1, h3 {
+    text-align: center;
+    color: teal;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: darkslategray;
+}
+h2:before {
+    content: "\00AB\0020";
+}
+h2:after {
+    content: "\0020\00BB"
+}
+
+p + p {
+    background: rgba(161, 238, 130, 0.452);
+} 
+
+input[type="submit"] {
+    background: darkgrey;
+    color: cornsilk;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid darkred;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background: khaki;
+    color: maroon;
+}
+
+p:last-of-type {
+    color: green;
+}
+
+
